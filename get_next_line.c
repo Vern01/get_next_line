@@ -47,7 +47,7 @@ char	get_char(const int fd)
 	return (c);
 }
 
-int		get_next_line(int fd, char **line)
+int		get_next_line(const int fd, char **line)
 {
 	int		i;
 	char	c;
